@@ -1,8 +1,4 @@
-/* font-family: 'Montserrat', sans-serif;
-font-family: 'Raleway', sans-serif;
-font-family: 'Roboto', sans-serif; */
 
-/* general clean original style*/
 .list {
   list-style: none;
 }
@@ -52,6 +48,9 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+
+
 
 
 
@@ -131,18 +130,6 @@ body {
   color: #404bbf;
 }
 
-/* .header-link::after {
-  content: "";
-  position: absolute;
-  display: block;
-  width: 100%; 
-  height: 4px;
-  border-radius: 2px;
-  background-color: #404bbf; 
-  transition: width 300ms ease-in-out; 
-  margin-top: 20px;
-  bottom: -1px; 
-} */
 
 .current::after {
   content: "";
@@ -207,6 +194,11 @@ color: #404BBF;
 
 
 
+
+
+
+
+
 /* Section 1 main */
 
 .main{
@@ -241,8 +233,6 @@ color: #404BBF;
   
 }
 
-
-
 /* section 2 */
 .main-btn {
   display: block;
@@ -272,6 +262,8 @@ color: #404BBF;
   background-color: #404bbf;
   cursor: pointer;
 }
+
+
 
 
 
@@ -327,6 +319,7 @@ padding-bottom: 120px;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
 }
+
 
 
 
@@ -441,9 +434,11 @@ padding-bottom: 120px;
 
 
 .ourteam-soc-svg{
-  /* padding-left: 11px; */
   fill: #f4f4fd;
 }
+
+
+
 
 
 
@@ -551,14 +546,6 @@ padding-bottom: 120px;
 
 
 
-
-
-
-
-
-
-
-
 /* footer */
 
 .footer{
@@ -598,11 +585,9 @@ margin-right: 120px;
   margin-top: 17.5px;
 }
 
-
 .footer-soc-box{
 
 }
-
 
 .footer-social-media{
   color: var(--WHITE, #FFF);
@@ -645,3 +630,52 @@ margin-right: 120px;
   background-color: #31d0aa;
   cursor: pointer;
 }
+
+
+
+
+
+/* modal form */
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(46, 47, 66, 0.40);
+  
+  /* opacity: 0; */
+  /* visibility: hidden; */
+  /* pointer-events: none; */ */
+  
+  transition: opacity 300ms linear, visibility 300ms linear;
+}
+
+.modal {
+  width: 408px;
+  min-height: 584px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background-color: #FCFCFC;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  padding: 72px 24px 24px 24px;
+}
+
+.modal-name{
+  color: #2E2F42;
+text-align: center;
+
+font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5; /* 150% */
+letter-spacing: 0,02em;
+
+padding-bottom: 16px;
+}
+
