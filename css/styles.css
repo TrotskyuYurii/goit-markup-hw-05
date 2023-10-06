@@ -586,7 +586,7 @@ margin-right: 120px;
 }
 
 .footer-soc-box{
-
+  margin-right: 80px;
 }
 
 .footer-social-media{
@@ -894,7 +894,7 @@ margin-bottom: 24px;
 /* footer form */
 .footer-form {
   display: flex;
-  gap: 8px;
+  gap: 800px;
 }
 
 .footer-form-input {
@@ -905,7 +905,7 @@ margin-bottom: 24px;
   border: 1px solid var(--WHITE, #FFF);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   background-color: transparent;
-  margin-right: 24px;
+  margin-right: 14px;
 }
 .modal-footer-label{
   display: block;
@@ -940,6 +940,7 @@ margin-bottom: 16px;
   gap: 16px;
   border-radius: 4px;
   background-color: #4D5AE5;
+  border: none;
 
   color: #FFFFFF;
   /* text-align: center; */
