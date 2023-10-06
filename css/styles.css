@@ -843,28 +843,28 @@ margin-bottom: 24px;
   width: 16px;
   height: 16px;
   flex-shrink: 0;
-
-  /* stroke-width: 1px;
-  stroke: var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.40)); */
-
   margin-right: 8px;
   display: flex;
   align-items: center;
   justify-content: center;
-  /* fill: transparent; */
 }
+
+.modal-check{
+ 
+}
+
 
 .check-text-icon{
-  fill: var(--OCEAN, #404BBF);
-  stroke-width: 1px;
-  stroke: var(--OCEAN, #404BBF);
+ 
+  /* stroke-width: 1px;
+  fill: white;
+  stroke: rgba(46, 47, 66, 0.40); */
 }
 
-
-.modal-check:checked + .check-text > .check-text-box {
-  background-color: #fd9222;
-  border: none;
-  fill: #ffffff;
+.modal-check:checked + .check-text .check-text-icon {
+  /* fill: var(--OCEAN, #404BBF);
+  stroke-width: 1px;
+  stroke: var(--OCEAN, #404BBF); */
 }
 
 .modal-btn{
