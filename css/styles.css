@@ -979,21 +979,20 @@ margin-bottom: 16px;
 
 .footer-form-btn {
   display: inline-flex;
-  width: 165px;
+  min-width: 165px;
   height: 40px;
   padding: 8px 24px;
   display: inline-flex;
-  /* justify-content: center; */
+  justify-content: center;
   align-items: center;
   gap: 16px;
   border-radius: 4px;
   background-color: #4D5AE5;
   border: none;
-
+  cursor: pointer;
   color: #FFFFFF;
-  /* text-align: center; */
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5; /* 150% */
-  letter-spacing: 0,04em;
+  letter-spacing: 0.04em;
 }
