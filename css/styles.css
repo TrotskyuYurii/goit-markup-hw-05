@@ -854,6 +854,8 @@ margin-right: 8px;
 display: flex;
 fill: transparent;
 flex-shrink: 0;
+align-items: center;
+justify-content: center;
 }
 
 .modal-check:checked + .check-text .check-text-box {
