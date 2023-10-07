@@ -774,8 +774,9 @@ margin-bottom: 24px;
   top: 50%;
   transform: translateY(-50%);
   transition: stroke 300ms linear;
-  fill: black;
-  stroke: black;
+  flex-shrink: 0;
+  fill: #2e2f42;
+  stroke: #2e2f42;
 }
 
 .modal-field-input input[type=text],
@@ -849,22 +850,28 @@ margin-bottom: 24px;
   justify-content: center;
 }
 
+.privacy-policy-link{
+  margin-left: 4px;
+}
+
 .modal-check{
  
 }
 
-
 .check-text-icon{
- 
-  /* stroke-width: 1px;
-  fill: white;
-  stroke: rgba(46, 47, 66, 0.40); */
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  stroke-width: 1px;
+stroke: var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.40));
 }
 
 .modal-check:checked + .check-text .check-text-icon {
-  /* fill: var(--OCEAN, #404BBF);
+  fill: var(--OCEAN, #404BBF);
   stroke-width: 1px;
-  stroke: var(--OCEAN, #404BBF); */
+  stroke: var(--OCEAN, #404BBF);
+  color: white;
+  background-color: #404BBF;
 }
 
 .modal-btn{
