@@ -848,9 +848,9 @@ margin-bottom: 24px;
   font-size: 12px;
   line-height: 1.17; 
   letter-spacing: 0.04em; 
-  display: flex;
+  /* display: flex; */
   align-items: center;
-  position: relative;
+  /* position: relative; */
   color: #8e8f99;
 }
 
