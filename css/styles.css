@@ -439,7 +439,7 @@ padding-bottom: 120px;
 
 .ourteam-soc-subscribe{
   fill: #f4f4fd;
-  /* margin-left: 16px; */
+  margin-left: 16px;
 }
 
 
@@ -987,7 +987,7 @@ margin-bottom: 16px;
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  gap: 16px;
+  /* gap: 16px; */
   border-radius: 4px;
   background-color: #4D5AE5;
   border: none;
